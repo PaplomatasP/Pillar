@@ -225,27 +225,30 @@ a {
   color: #ff0266; /* Adding contrast for emotional connection */
 }
 .glassmorphic {
-  background: rgba(255, 255, 255, 0.12); /* Ελαφρώς πιο αδιαφανές */
-  backdrop-filter: blur(2px); /* Περισσότερο blur για πιο έντονο εφέ */
-  -webkit-backdrop-filter: blur(2px);
-  border-radius: 12px; /* Ακόμα πιο στρογγυλεμένες γωνίες */
-  border: 1.1px solid rgba(255, 255, 255, 0.25); /* Πιο έντονο περίγραμμα */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15), 
-              inset 0 1px 1px rgba(255, 255, 255, 0.2); /* Διπλή σκιά με εσωτερική λάμψη */
-  padding: 5; /* Αυξημένο padding */
-  margin: 2.2rem auto;
+  background: rgba(236, 228, 228, 0.4); /* Περισσότερη διαφάνεια για πιο καθαρό glass effect */
+  backdrop-filter: blur(12px); /* Περισσότερο blur για πιο έντονο γυάλινο εφέ */
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px; /* Απαλότερες και πιο κομψές στρογγυλεμένες γωνίες */
+  border: 1.5px solid rgba(255, 255, 255, 0.3); /* Πιο λεπτό και ισορροπημένο περίγραμμα */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 
+              inset 0 2px 4px rgba(255, 255, 255, 0.2); /* Πιο διακριτική και αρμονική εσωτερική σκιά */
+  padding: 16px; /* Καλύτερη αναλογία για σωστή διάταξη περιεχομένου */
+  margin: 2.5rem auto; /* Ελαφρώς μεγαλύτερο margin */
   color: #faebd7;
-  max-width: 2500px; /* Ελαφρώς μεγαλύτερο πλάτος */
-  line-height: 0.8;
-  transition: all 0.3s ease; /* Ομαλή μετάβαση για hover εφέ */
+  max-width: 1200px; /* Μειωμένο πλάτος για καλύτερη αναγνωσιμότητα */
+  line-height: 1.4; /* Αυξημένο line-height για πιο καθαρή εμφάνιση κειμένου */
+  transition: all 0.4s ease-in-out; /* Πιο ομαλή μετάβαση */
 }
 
+/* Hover εφέ για καλύτερη αλληλεπίδραση */
 .glassmorphic:hover {
-  background: rgba(255, 255, 255, 0.15); /* Ελαφρώς πιο φωτεινό στο hover */
-  transform: translateY(-5px); /* Μικρή ανύψωση στο hover */
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2), 
-              inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  background: rgba(236, 228, 228, 0.55); /* Λίγο πιο έντονο hover */
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25), 
+              inset 0 3px 6px rgba(255, 255, 255, 0.25); /* Εντονότερο depth */
+  transform: scale(1.02); /* Ελαφρύ zoom για πιο premium αίσθηση */
 }
+
+
 
 
 
