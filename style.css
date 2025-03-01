@@ -225,7 +225,7 @@ a {
   color: #ff0266; /* Adding contrast for emotional connection */
 }
 .glassmorphic {
-  background: rgba(236, 228, 228, 0.4); /* Περισσότερη διαφάνεια για πιο καθαρό glass effect */
+  background: rgba(236, 228, 228, 0.02); /* Περισσότερη διαφάνεια για πιο καθαρό glass effect */
   backdrop-filter: blur(12px); /* Περισσότερο blur για πιο έντονο γυάλινο εφέ */
   -webkit-backdrop-filter: blur(12px);
   border-radius: 16px; /* Απαλότερες και πιο κομψές στρογγυλεμένες γωνίες */
